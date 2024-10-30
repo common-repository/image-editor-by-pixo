@@ -1,0 +1,11 @@
+.pixo-modal,
+.pixo-dialog { z-index: 160000 }
+.update-nag.notice.notice-warning { display: block }
+.imgedit-menu,
+.imgedit-settings,
+.imgedit-submit { display: none !important }
+.pixo-control-panel {
+    position: sticky;
+    top: 30px;
+    height: calc(100vh - 30px);
+}
